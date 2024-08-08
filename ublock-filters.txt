@@ -1,0 +1,16 @@
+! Rubbish words list
+! Celebrities
+*##a:has-text(/Elon|Musk|Taylor|Swift|Swiftie|Kardashian|Jenner|Kanye|West|Beyoncé|Jay-Z|Brad Pitt|Angelina Jolie|Tom Cruise|Jennifer|Aniston|Justin Bieber|Selena Gomez|Ariana Grande|Drake|Rihanna|Lady Gaga|Madonna|Britney Spears|Kim|Khloe|Kourtney|Kylie|Kendall/i)
+*##div:has(> a:has-text(/Elon|Musk|Taylor|Swift|Swiftie|Kardashian|Jenner|Kanye|West|Beyoncé|Jay-Z|Brad Pitt|Angelina Jolie|Tom Cruise|Jennifer|Aniston|Justin Bieber|Selena Gomez|Ariana Grande|Drake|Rihanna|Lady Gaga|Madonna|Britney Spears|Kim|Khloe|Kourtney|Kylie|Kendall/i))
+
+! Warm and fuzzy
+*##a:has-text(/Hollywood|Celebrity|Star|Famous|A-lister|Red carpet|Paparazzi|Tabloid|Viral|Trending|Buzz|Gossip|Feel-good|Heartwarming|Inspiring|Uplifting/i)
+*##div:has(> a:has-text(/Hollywood|Celebrity|Star|Famous|A-lister|Red carpet|Paparazzi|Tabloid|Viral|Trending|Buzz|Gossip|Feel-good|Heartwarming|Inspiring|Uplifting/i))
+
+! Politicians
+*##a:has-text(/Trump|Donald|Biden|Joe|Kamala|Harris/i)
+*##div:has(> a:has-text(/Trump|Donald|Biden|Joe|Kamala|Harris/i))
+
+! Companies
+*##a:has-text(/Tesla|Cybertruck/i)
+*##div:has(> a:has-text(/Tesla|Cybertruck/i))
