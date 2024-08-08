@@ -1,7 +1,11 @@
 # ublock Obnoxiousness Filter
-Some stories, with their celebrity/outrage/shock-value/click-bait... monopolize information channels. [uBlock Origin](https://github.com/gorhill/uBlock), while historically used to filter out advertisements, can be equally effective in removing these attention-grabbing distractions. (I am sure this idea is not new, but I have not found any active implementations of it). 
+Ever open your news feed to find the same celebrity drama, political scandals, or clickbait headlines dominating the space? [uBlock Origin](https://github.com/gorhill/uBlock), the powerful ad blocker, can be your secret weapon for filtering out more than just ads!
 
-This repository pilots the idea with a small, curated list of uBlock Origin [filters](https://raw.githubusercontent.com/arunsupe/ublock-filters/main/ublock-filters.txt) designed to remove some of these online annoyances. More importantly, it shows how easy it is to write these filters for yourselves. I hope you find the idea useful.
+Many news sources prioritize clicks over substance, bombarding us with celebrity gossip, manufactured outrage, and clickbait. This constant barrage can be overwhelming and detract from valuable information.
+
+[uBlock Origin](https://github.com/gorhill/uBlock), historically used to filter out advertisements, can be equally effective in removing these attention-grabbing distractions. (I am sure this idea is not new, but I have not found any active implementations of it). 
+
+This repository pilots the idea with a small, curated list of uBlock Origin [filters](https://raw.githubusercontent.com/arunsupe/ublock-filters/main/ublock-filters.txt) designed to remove some of these online annoyances. More importantly, it shows how easy it is to write these filters for yourselves. I hope you find use for this idea.
 
 
 ## Key Benefits:
