@@ -47,4 +47,4 @@ The effectiveness of these filters may vary depending on the website, the specif
 
 
 ## License:
-This repository and its contents are licensed under the [MIT License](https://github.com/arunsupe/ublock-filters/blob/main/LICENSE).
+This repository and its contents are licensed under the [MIT License](https://github.com/arunsupe/ublock-filters?tab=MIT-1-ov-file).
