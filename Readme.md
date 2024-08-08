@@ -1,11 +1,11 @@
 # ublock Obnoxiousness Filter
-Ever open your news feed to find the same celebrity drama, political scandals, or clickbait headlines dominating the space? [uBlock Origin](https://github.com/gorhill/uBlock), the powerful ad blocker, can be your secret weapon for filtering out more than just ads!
+Are you getting more Trump or Taylor in your digital life than you care for? Ever open your news feed to find the same celebrity drama, political scandals, or clickbait headlines dominating the space? [uBlock Origin](https://github.com/gorhill/uBlock), the powerful ad blocker, can be your secret weapon for filtering out more than just ads!
 
 Many news sources prioritize clicks over substance, bombarding us with celebrity gossip, manufactured outrage, and clickbait. This constant barrage can be overwhelming and detract from valuable information.
 
 [uBlock Origin](https://github.com/gorhill/uBlock), historically used to filter out advertisements, can be equally effective in removing these attention-grabbing distractions. (I am sure this idea is not new, but I have not found any active implementations of it). 
 
-This repository pilots the idea with a small, curated list of uBlock Origin [filters](https://raw.githubusercontent.com/arunsupe/ublock-filters/main/ublock-filters.txt) designed to remove some of these online annoyances. More importantly, it shows how easy it is to write these filters for yourselves. I hope you find use for this idea.
+This repository pilots the idea with a small, curated list of uBlock Origin [filters](https://raw.githubusercontent.com/arunsupe/ublock-filters/main/ublock-filters.txt) designed to remove some of these online annoyances. This is still an experiment. I want to make a useful list, without hurting performance. Not sure I have succeeded yet. **Viewer discretion adviced**.
 
 
 ## Key Benefits:
@@ -27,7 +27,7 @@ This repository pilots the idea with a small, curated list of uBlock Origin [fil
 
 
 ## Creating Your Own Filters:
-uBlock Origin [filters](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#extended-syntax) are rules that tell the browser to hide or modify specific elements on a webpage. While these rules can be complex, simple keyword matches can take us a long way (and these are lightweight and performant). For example:
+uBlock Origin [filters](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#extended-syntax) are rules that tell the browser to hide or modify specific elements on a webpage. While these rules can be complex, simple keyword matches can take us a long way. For example:
 ```
 ! Remove any link that that has text that matches hollywood or celebrity (case insensitive)
 *##a:has-text(/Hollywood|Celebrity/i)
@@ -35,6 +35,9 @@ uBlock Origin [filters](https://github.com/gorhill/uBlock/wiki/Static-filter-syn
 *##div:has(> a:has-text(/Hollywood|Celebrity/i))
 ```
 To add custom filters: `uBlock settings -> My filters -> (Paste the filters) -> Apply changes -> Reload page`
+
+Note: Even one wayward rule can hurt overall performance. Please test the rules carefully, and convince yourself the tradeoff is worth it, before using them.
+
 
 ## Contributing:
 All contributions are welcome! This list is constantly evolving, and your feedback or additional filters are highly encouraged. Here's how you can get involved:
