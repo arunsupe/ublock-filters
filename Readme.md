@@ -34,7 +34,7 @@ uBlock Origin [filters](https://github.com/gorhill/uBlock/wiki/Static-filter-syn
 ! Same, but remove the div that has text that matches
 *##div:has(> a:has-text(/Hollywood|Celebrity/i))
 ```
-
+To add custom filters: `uBlock settings -> My filters -> (Paste the filters) -> Apply changes -> Reload page`
 
 ## Contributing:
 All contributions are welcome! This list is constantly evolving, and your feedback or additional filters are highly encouraged. Here's how you can get involved:
