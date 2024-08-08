@@ -1,9 +1,12 @@
 ! Rubbish words list
 ! Celebrities
+! *##a:has-text(/Elon|Musk|Taylor|Swift|Swiftie|Kardashian|Jenner|Kanye|West|Beyoncé|Jay-Z|Brad Pitt|Angelina Jolie|Tom Cruise|Jennifer|Aniston|Justin Bieber|Selena Gomez|Ariana Grande|Drake|Rihanna|Lady Gaga|Madonna|Britney Spears|Kim|Khloe|Kourtney|Kylie|Kendall|Kiyosaki/i)
 *##div:has(> a:has-text(/Elon|Musk|Taylor|Swift|Swiftie|Kardashian|Jenner|Kanye|West|Beyoncé|Jay-Z|Brad Pitt|Angelina Jolie|Tom Cruise|Jennifer|Aniston|Justin Bieber|Selena Gomez|Ariana Grande|Drake|Rihanna|Lady Gaga|Madonna|Britney Spears|Kim|Khloe|Kourtney|Kylie|Kendall|Kiyosaki/i))
 
 ! Politicians
+! *##a:has-text(/Trump|Donald|Biden|Joe|Kamala|Harris|Vance/i)
 *##div:has(> a:has-text(/Trump|Donald|Biden|Joe|Kamala|Harris|Vance/i))
 
 ! Companies
+! *##a:has-text(/Tesla|Cybertruck/i)
 *##div:has(> a:has-text(/Tesla|Cybertruck/i))
