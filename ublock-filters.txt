@@ -8,8 +8,8 @@
 *##div:has(> a:has-text(/Hollywood|Celebrity|Star|Famous|A-lister|Red carpet|Paparazzi|Tabloid|Viral|Trending|Buzz|Gossip|Feel-good|Heartwarming|Inspiring|Uplifting/i))
 
 ! Politicians
-*##a:has-text(/Trump|Donald|Biden|Joe|Kamala|Harris/i)
-*##div:has(> a:has-text(/Trump|Donald|Biden|Joe|Kamala|Harris/i))
+*##a:has-text(/Trump|Donald|Biden|Joe|Kamala|Harris|Vance/i)
+*##div:has(> a:has-text(/Trump|Donald|Biden|Joe|Kamala|Harris|Vance/i))
 
 ! Companies
 *##a:has-text(/Tesla|Cybertruck/i)
